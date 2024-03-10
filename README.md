@@ -1,6 +1,6 @@
 ## PolyGCL: GRAPH CONTRASTIVE LEARNING via Learnable Spectral Polynomial Filters
 
-This repository contains a PyTorch implementation of "PolyGCL: GRAPH CONTRASTIVE LEARNING via Learnable Spectral Polynomial Filters".
+This repository contains a PyTorch implementation of ICLR 2024 paper "[*PolyGCL: GRAPH CONTRASTIVE LEARNING via Learnable Spectral Polynomial Filters*](https://openreview.net/pdf?id=y21ZO6M86t)".
 
 
 ## Environment Settings    
@@ -13,7 +13,7 @@ This repository contains a PyTorch implementation of "PolyGCL: GRAPH CONTRASTIVE
 - scikit-learn 0.24.2
 
 ### Datasets
-We provide datasets in the folder 'data'.
+We provide the small datasets in the folder 'data'. You can access the heterophilic datasets and the large heterophilic graph arXiv-year via [heterophilous-graphs](https://github.com/yandex-research/heterophilous-graphs) and [LINKX](https://github.com/CUAI/Non-Homophily-Large-Scale) respectively.
 
 
 ## Reproduce the results
@@ -24,12 +24,16 @@ You can run the following commands directly.
 ```sh
 sh exp_PolyGCL.sh
 ```
-Heterophilic datasets
+Heterophilic datasets:
 ```sh
 cd HeterophilousGraph
 sh exp_PolyGCL.sh
 ```
-
+Large heterophilic graph arXiv-year:
+```sh
+cd non-homophilous
+sh exp_PolyGCL.sh
+```
 
 ### On synthetic datasets
 
@@ -42,3 +46,12 @@ Then run the following command directly.
 ```sh
 sh run_cSBM.sh
 ```
+
+## Acknowledgements 
+This project includes code or ideas inspired by the following repositories:
+ - [ChebNetII](https://github.com/ivam-he/ChebNetII)
+ -  [MVGRL](https://github.com/kavehhassani/mvgrl)
+ - [DGI](https://github.com/PetarV-/DGI)
+
+## Contact
+If you have any questions, please feel free to contact me with [jy.chen@ruc.edu.cn](mailto:jy.chen@ruc.edu.cn).
