@@ -1,0 +1,1 @@
+python training.py --dataset arxiv-year --hid_dim 256 --lr 0.001 --epochs 1000

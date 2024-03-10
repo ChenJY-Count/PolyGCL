@@ -1,0 +1,9 @@
+python cSBM_dataset.py --phi -1 --name cSBM_phi_-1 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi -0.75 --name cSBM_phi_-0.75 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi -0.5 --name cSBM_phi_-0.5 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi -0.25 --name cSBM_phi_-0.25 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi 0 --name cSBM_phi_0 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi 0.25 --name cSBM_phi_0.25 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi 0.5 --name cSBM_phi_0.5 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi 0.75 --name cSBM_phi_0.75 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
+python cSBM_dataset.py --phi 1 --name cSBM_phi_1 --num_nodes 5000 --num_features 2000 --avg_degree 5 --epsilon 3.25
