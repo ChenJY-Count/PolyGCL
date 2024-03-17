@@ -52,6 +52,17 @@ This project includes code or ideas inspired by the following repositories:
  - [ChebNetII](https://github.com/ivam-he/ChebNetII)
  -  [MVGRL](https://github.com/kavehhassani/mvgrl)
  - [DGI](https://github.com/PetarV-/DGI)
+ 
+## Citation
+
+    @inproceedings{
+	    chen2024polygcl,
+	    title={Poly{GCL}: {GRAPH} {CONTRASTIVE} {LEARNING} via Learnable Spectral Polynomial Filters},
+	    author={Jingyu Chen and Runlin Lei and Zhewei Wei},
+	    booktitle={The Twelfth International Conference on Learning Representations},
+	    year={2024},
+	    url={https://openreview.net/forum?id=y21ZO6M86t}
+    }
 
 ## Contact
 If you have any questions, please feel free to contact me with [jy.chen@ruc.edu.cn](mailto:jy.chen@ruc.edu.cn).
